@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>c++ Quiz</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Welcome to c++ Quiz</h1>
+        <div class="question">
+            <p id="question">Question 1: What is the capital of France?</p>
+        </div>
+        <div class="options">
+            <button class="option" onclick="checkAnswer(1)">A. Paris</button>
+            <button class="option" onclick="checkAnswer(2)">B. London</button>
+            <button class="option" onclick="checkAnswer(3)">C. Berlin</button>
+            <button class="option" onclick="checkAnswer(4)">D. Madrid</button>
+        </div>
+        <div class="end-quiz" id="end-quiz" style="display: none;">
+            <p id="score">Your Score: <span id="user-score"></span></p>
+            <button class="restart-button" onclick="restartQuiz()">Restart Quiz</button>
+            <a href="."><button class="next-page-button" onclick="goToNextPage()">Go to Home Page</button></a>
+           
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
